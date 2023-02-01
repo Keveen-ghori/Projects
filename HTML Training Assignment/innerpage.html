@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Analysis</title>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="company__profile">
+          <div class="company">
+            <img src="/images/menu-bar.svg" alt="menu nav-bar" class="toggle" />
+            <picture>
+              <source
+                media="(max-width:600px)"
+                srcset="/images/mobile-header-logo.svg"
+              />
+              <img src="/images/logo.svg" alt="Logo" class="company__logo" />
+            </picture>
+          </div>
+          <div class="search__container">
+            <img
+              src="/images/search-icon.svg"
+              alt="search"
+              class="search__ico"
+            />
+            <p class="search__text">Search</p>
+          </div>
+        </div>
+        <div class="user__profile">
+          <img
+            src="/images/notification-icon.svg"
+            alt="Notification"
+            class="notification"
+          />
+          <img
+            src="/images/profile.png"
+            alt="Profile picture"
+            class="profile"
+          />
+          <p class="user__name">John Doe</p>
+          <img
+            src="/images/select-downward.svg"
+            alt="Down Arrow"
+            class="more"
+          />
+        </div>
+      </div>
+      <div class="container__main">
+        <div class="nav-bar">
+          <ul class="main__nav">
+            <li>
+              <img src="/images/dashboard-default.svg" alt="Dash" /><a href=""
+                >Dashboard</a
+              >
+            </li>
+            <li>
+              <img src="/images/graph-default.svg" alt="graph" /><a href=""
+                >Analysis</a
+              >
+            </li>
+            <li>
+              <img src="/images/inbox-default.svg" alt="inbox" /><a href=""
+                >Inbox</a
+              >
+            </li>
+            <li>
+              <img src="/images/clock-default.svg" alt="Clock" /><a href=""
+                >History</a
+              >
+            </li>
+            <li>
+              <img src="/images/user-default.svg" alt="Dash" /><a href=""
+                >Users</a
+              >
+            </li>
+            <li>
+              <img src="/images/maintenance-default.svg" alt="Maintenance" /><a
+                href=""
+                >Maintenance</a
+              >
+            </li>
+            <li>
+              <img src="/images/setting-default.svg" alt="Settings" /><a href=""
+                >Settings</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="analysis__main">
+          <header>
+            <h2>Analysis</h2>
+          </header>
+
+          <div class="analysis__form">
+            <header class="one-column">
+              <h2>One Column</h2>
+            </header>
+            <form action="">
+              <input type="text" class="name" placeholder="Name" />
+              <select name="dropdown" id="" placeholder="dropdown">
+                <option value="Dropdown">Dropdown</option>
+                <option value="dropdown-1">dropdown-1</option>
+                <option value="dropdown-2">dropdown-2</option>
+                <option value="dropdown-3">dropdown-3</option>
+                <option value="dropdown-4">dropdown-4</option>
+                <option value="dropdown-5">dropdown-5</option>
+                <option value="dropdown-6">dropdown-6</option>
+                <option value="dropdown-7">dropdown-7</option>
+              </select>
+              <textarea name="multi-line" id="multi__line" cols="40" rows="20">
+Multiple line</textarea
+              >
+            </form>
+            <header class="one-column">
+              <h2>Two Column</h2>
+            </header>
+            <form action="" class="two__col">
+              <div class="left">
+                <div class="inputContainer">
+                  <input type="text" class="input" placeholder="Name" />
+                  <!-- <label class="label">Name</label> -->
+                </div>
+                <div class="inputContainer">
+                  <input type="password" class="input" placeholder="Password" />
+                  <!-- <label class="label">Password</label> -->
+                </div>
+              </div>
+
+              <div class="right">
+                <div class="inputContainer">
+                  <input type="text" class="input" placeholder="Username" />
+                  <!-- <label class="label">Username</label> -->
+                </div>
+                <div class="inputContainer">
+                  <select name="dropdown" id="">
+                    <option value="Dropdown">Dropdown</option>
+                    <option value="dropdown-1">dropdown-1</option>
+                    <option value="dropdown-2">dropdown-2</option>
+                    <option value="dropdown-3">dropdown-3</option>
+                    <option value="dropdown-4">dropdown-4</option>
+                    <option value="dropdown-5">dropdown-5</option>
+                    <option value="dropdown-6">dropdown-6</option>
+                    <option value="dropdown-7">dropdown-7</option>
+                  </select>
+                  <!-- <label class="label">Dropdown</label> -->
+                </div>
+              </div>
+            </form>
+            <header class="one-column">
+              <h2>Three Column</h2>
+            </header>
+            <form action="" class="three__col">
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="Name" />
+                <!-- <label class="label">Name</label> -->
+              </div>
+              <div class="inputContainer">
+                <input type="password" class="input" placeholder="Password" />
+                <!-- <label class="label">Password</label> -->
+              </div>
+              <div class="inputContainer">
+                <input
+                  type="text"
+                  class="disabled"
+                  placeholder="Disable"
+                  disabled
+                />
+                <!-- <label class="label">Password</label> -->
+              </div>
+            </form>
+            <header class="one-column">
+              <h2>Four Column</h2>
+            </header>
+            <form action="" class="four__col">
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="Designation" />
+                <!-- <label class="label">Designation</label> -->
+              </div>
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="Name" />
+                <!-- <label class="label">Username</label> -->
+              </div>
+
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="Username" />
+                <!-- <label class="label">Username</label> -->
+              </div>
+
+              <div class="inputContainer">
+                <select name="select" id="">
+                  <option value="select">Select</option>
+                  <option value="dropdown-1">dropdown-1</option>
+                  <option value="dropdown-2">dropdown-2</option>
+                  <option value="dropdown-3">dropdown-3</option>
+                  <option value="dropdown-4">dropdown-4</option>
+                  <option value="dropdown-5">dropdown-5</option>
+                  <option value="dropdown-6">dropdown-6</option>
+                  <option value="dropdown-7">dropdown-7</option>
+                </select>
+                <!-- <label class="label">Dropdown</label> -->
+              </div>
+            </form>
+
+            <header class="other-column">
+              <h2>Other Design Elements</h2>
+            </header>
+            <form action="" class="extra__col">
+              <h3>File Upload</h3>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
